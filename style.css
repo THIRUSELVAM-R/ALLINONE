@@ -27,7 +27,7 @@
 }
 .one td,th
 {
-  background-image: url('star.jpg');
+  background-image: url('st1.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -72,7 +72,7 @@ a:hover
 
 .one
 {
-    background-image: url("https://github.com/THIRUSELVAM-R/ALLINONE/blob/4595427eae75b5a3472966cef41cde8792d7dbfd/star.jpg");
+    background-image: url("star.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
