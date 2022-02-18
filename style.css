@@ -1,24 +1,7 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
 
-.tt
- {
-  text-align: center;
-  padding: 15px;
-  color: white;
-  border: px solid black;
-  background-color: black;
- }
- .tt header
- {
-  font-family: sofia;
-  text-shadow: 1px 1px 20px black, 0 0 20px blue, 0 0 5px darkblue;
- }
-.one th,td 
+<style>
+
+.one th,td , table
 {
   border-collapse: collapse;
   border-spacing: 10px;
@@ -35,7 +18,7 @@
 .one th,td
 {
   text-align: center;
-  color: white;
+  color: black;
   font-size: 175%;
 }
 a:link
@@ -55,27 +38,33 @@ a:hover
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   text-shadow: 1px 1px 2px black, 0 0 50px blue, 0 0 10px steelblue;
-   
 }
 
 .one table
 {
    border-spacing:80px;
    padding:30px;
+   background-image: url('star.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
 
 }
 
-.one th,td,table
+.one th,td
 {
   border-radius: 10px;
 }
 
-.one
+.tt
 {
-    background-image: url('star.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    border: 5px solid grey;
+  font-size: 300%;
+  border: 2px solid black;
+  padding: 20px;
+  color: white;
+  background-color: black;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-shadow: 1px 1px 2px black, 0 0 50px blue, 0 0 10px steelblue;
+
 }
 </style>
