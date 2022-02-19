@@ -16,7 +16,7 @@ header {
 article {
   width: 100vw;
   float: left;
-  background-image: url('C:/Users/Thiru/Documents/pro/star.jpg');
+  background-image: url('star.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
