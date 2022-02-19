@@ -26,21 +26,24 @@ article {
 .one {
   background-image: url('st1.jpg');
   padding: 18px;
-  width: 26%; 
+  width: 26%;
+  text-align: center; 
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   margin:30px;
+  text-align: center;
+  border: 5px solid black;
   float: left;
   border-radius: 10px;
 }
 
 
-@media only screen and (min-width: 360px) and (max-width: 899px){
+@media only screen and (min-width: 300px) and (max-width: 899px){
   article {
     width: 100vw;
     height: auto;
-    font-size: 3vw;
+    font-size: 8vw;
   }
   .one{
     width: 70vw; 
@@ -52,7 +55,7 @@ article {
   article {
     width: 100vw;
     height: auto;
-    font-size: 3vw;
+    font-size: 5vw;
   }
   .one{
     width: 40vw; 
